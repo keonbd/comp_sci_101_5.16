@@ -1,0 +1,11 @@
+''' Type your code here. '''
+char = input()
+words = input()
+list_all = [ ]
+list_words = [ ]
+if char in words:
+    list_all = words.split()
+#    print(list_all)
+    for i in list_all:
+        if char in i:
+            print(i)
